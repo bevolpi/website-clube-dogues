@@ -588,6 +588,7 @@ h1 {
 .sede {
   background-color: var(--bege3);
   border-radius: 15px;
+  margin: 10px;
 }
 
 .sede-img {
@@ -644,6 +645,7 @@ h1 {
 .malzoni {
   background-color: var(--bege3);
   border-radius: 15px;
+  margin:10px;
 }
 
 .malzoni img {
