@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="/public/img/SVG/SVG/Monograma-Verde.svg" type="image/x-icon">
 
-    <title>Clínica - Clube Doguês</title>
+    <title>Banho e Tosa - Clube Doguês</title>
 
     <link rel="stylesheet" type="text/css" href="/public/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/public/css/sweetalert2.min.css" />
@@ -65,59 +65,83 @@
         </nav>
 
 		<div class="conteudo">
-
-            <div class="secao1-cl py-5 px-3">
-                <a class="days animate-on-scroll">
-                    <img src="/public/img/SVG/SVG/Monograma-Cru.svg" alt="Logo" width="50px">
-                </a>    
-                <h1>Clínica Geral</h1>
-                <p><b>Cuidados completos para a saúde do seu pet.</b></p>
-            </div>
-
-            <div class="socorro">
-            <div class="secao2-cl container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 desc2-cl animate-on-scroll text-center text-md-start">
-                        <p >Oferecemos acompanhamento constante para garantir que todos os aspectos básicos da saúde do seu pet estejam em dia, como:</p>
-                    </div>
-                    <div class="col-md-6 subsecao-2-texto-cl animate-on-scroll">
-                        <h1>Serviços</h1>
-                        <ul class="list-unstyled">
-                            <li>&bull; Consulta</li>
-                            <li>&bull; Vacinação</li>
-                            <li>&bull; Limpeza de tártaro</li>
-                            <li>&bull; Castração</li>
-                            <li>&bull; Coleta de Exames</li>
-                        </ul>
-                        <p><i>Os procedimentos cirúrgicos não são feitos no Clube</i></p>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-            <div class="secao3-cl container-fluid p-0">
-            </div>
-
-            <div class="secao5-cl py-5 px-3">
+            
+            <div class="secao1-bt py-5 px-3">
                 <a class="days animate-on-scroll">
                     <img src="/public/img/SVG/SVG/Monograma-Cru.svg" alt="Logo" width="50px">
                 </a>
-                <h1>Fisioterapia</h1>
-                <p>Bem-estar e reabilitação com carinho e cuidado.</p>
+                <h1>Banho & Tosa</h1>
+                <p><b>Cuidados estéticos com amor e os melhores produtos para a higiene do seu pet!</b></p>
             </div>
 
             <div class="socorro3">
-            <div class="secao4-cl container py-5">
-                <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-8 desc4-cl animate-on-scroll text-center">
-                        <p>Usamos diversas técnicas de fortalecimento, alongamento e alívio da dor, melhorando o condicionamento físico do seu pet através de programas específicos, criados com o objetivo de contribuir ao máximo em seu conforto e reabilitação, e tratando diversas doenças físicas, emocionais, e autoimunes com suas propriedades analgésicas e anti-inflamatórias.</p>
-                    </div>
+            <div class="secao2-bt container py-5">
+                <div class="desc2-bt animate-on-scroll mx-auto">
+                    <p>Como o Doguês é a segunda casa para a turminha, o bem-estar é garantido. Temos serviço de banho e tosa para
+                        nossos alunos como também para quem é de fora. Utilizamos os melhores produtos para a higiene e estética com
+                        uma equipe especializada e carinhosa.</p>
                 </div>
             </div>
             </div>
+            
+            <div class="socorro">
+            <div class="secao3-bt container text-center py-5">
+                <h3 class="nossa-sala animate-on-scroll mt-3">Nossa sala de banho e tosa é climatizada e super higienizada.</h3>
+
+                <div class="carousel-wrapper mb-5">
+                    <div class="carousel-container animate-on-scroll">
+                        <div id="carouselBanhoTosa" class="carousel-3d"></div>
+                    </div>
+                </div>
+                
+                <script src="/public/js/carousel.js"></script>
+                
+                <a class="link1 btn btn-outline-dark btn-lg" 
+                style="border-radius: 50px; padding: 15px 40px; text-decoration: none;"
+                href="https://wa.me/551129858566?text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es!" 
+                target="_blank">
+                    AGENDE UM HORÁRIO
+                </a>
+            </div>
+            </div>
+
+            <div class="secao4-bt container-fluid p-0 overflow-hidden">
+                <div class="row g-0">
+                    <div class="col-md-5" style="
+                        background-image: url(/public/img/fotos-oficiais/bt/bt-1.jpeg);
+                        background-size: cover;
+                        background-position: center;
+                        min-height: 400px;">
+                    </div>
+                    <div class="col-md-7 subsecao-4-texto-bt p-5 d-flex flex-column justify-content-center animate-on-scroll">
+                        <h1>Serviços</h1>
+                        <ul class="list-unstyled mt-3"> <li class="mb-2">&bull; Banho</li>
+                            <li class="mb-2">&bull; Tosa - Completa e Higiênica</li>
+                            <li class="mb-2">&bull; Remoção de Subpelo</li>
+                            <li class="mb-2">&bull; Trimming</li>
+                            <li class="mb-2">&bull; Corte de unha e limpeza dentária inclusos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <style type="text/css">
+                .carousel-3d img {
+                    width: 400px; /* Tamanho Desktop */
+                    max-width: 100%;
+                    border-radius: 10px;
+                }
+                
+                /* Ajuste forçado para telas menores que 500px */
+                @media (max-width: 500px) {
+                    .carousel-3d img {
+                        width: 280px !important; /* Tamanho Mobile para não estourar a tela */
+                    }
+                }
+            </style>
 
 		</div>
-
+        
         <footer class="container-fluid py-5">
             <div class="container">
                 <div class="row text-center text-md-start">
