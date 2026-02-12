@@ -4,14 +4,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="/public/img/SVG/SVG/Monograma-Verde.svg" type="image/x-icon">
 
     <title>Clube Doguês</title>
-
-    <!--
-        https://getbootstrap.com/docs/5.3/getting-started/introduction/
-    -->
 
     <link rel="stylesheet" type="text/css" href="/public/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/public/css/sweetalert2.min.css" />
@@ -83,9 +79,9 @@
             </div>
 
             <main>
-                <div class="container-fluid secao2">
-                    <div class="row">
-                        <div class="col-lg-6 subsecao-2-texto" id="quem-somos">
+                <div class="container-fluid secao2 py-5">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 subsecao-2-texto order-2 order-lg-1" id="quem-somos">
                             <h1>Quem Somos</h1>
                             <p> <b>O Clube Doguês é um centro de bem-estar para o seu cão se sentir em casa fora de casa.</b></p>
                             <p>Nossa história começa em 2017, com uma vontade de desenvolver um processo de treinamento canino
@@ -98,38 +94,40 @@
                                 cão, simples assim!</p>
                         </div>
 
-                        <div class="col-lg-6 subsecao-2-img animate-on-scroll">
-                            <img width="70%" src="/public/img/fotos-oficiais/home/milena-final.png" alt="fundadora Milena Gerbelli" />
+                        <div class="col-lg-6 subsecao-2-img animate-on-scroll order-1 order-lg-2 text-center">
+                            <img class="img-fluid" width="70%" src="/public/img/fotos-oficiais/home/milena-final.png" alt="fundadora Milena Gerbelli" />
                         </div>
                     </div>
                 </div>
-
-                <div class="container-fluid secao3">
+                <div class="socorro">
+                <div class="container secao3 py-5">
                     <div class="row">
-                        <h1 class="nossos-servicos"> Nossos Serviços </h1>
+                        <div class="col-12 text-center mb-4">
+                            <h1 class="nossos-servicos"> Nossos Serviços </h1>
+                        </div>
                     </div>
-                    <div class="row justify-content-center subsecao-3-card animate-on-scroll">
-                        <!-- Card 1 -->
+                    
+                    <div class="row justify-content-center subsecao-3-card animate-on-scroll g-4">
                         <div class="col-md-4">
                             <a href="../daycare/" class="text-decoration-none text-dark">
-                                <div class="card h-100 card-home">
+                                <div class="card h-100 card-home shadow-sm">
                                     <img src="/public/img/fotos-oficiais/home/card-daycare.jpg" class="card-img-top" alt="Day Care">
                                     <div class="card-body">
-                                        <h5 class="card-title">Day Care</h5>
+                                        <h5 class="card-title fw-bold">Day Care</h5>
                                         <p class="card-text">Ofereça ao seu cão atividades que desenvolvem suas habilidades e
                                             garantem mais saúde e bem-estar.</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
+                    
 
-                        <!-- Card 2 -->
                         <div class="col-md-4">
                             <a href="../hotel/" class="text-decoration-none text-dark">
-                                <div class="card h-100 card-home">
+                                <div class="card h-100 card-home shadow-sm">
                                     <img src="/public/img/fotos-oficiais/home/card-hotel.jpg" class="card-img-top" alt="hotel">
                                     <div class="card-body">
-                                        <h5 class="card-title">Hotel</h5>
+                                        <h5 class="card-title fw-bold">Hotel</h5>
                                         <p class="card-text">Vai viajar? No Hotel do Clube Doguês seu pet socializa, aprende regras
                                             e se diverte em matilha.</p>
                                     </div>
@@ -137,14 +135,13 @@
                             </a>
                         </div>
 
-                        <!-- Card 3 -->
                         <div class="col-md-4">
                             <a href="../adestramento/" class="text-decoration-none text-dark">
-                                <div class="card h-100 card-home">
+                                <div class="card h-100 card-home shadow-sm">
                                     <img src="/public/img/fotos-oficiais/home/card-adestramento.jpg" class="card-img-top"
                                         alt="adestramento">
                                     <div class="card-body">
-                                        <h5 class="card-title">Adestramento</h5>
+                                        <h5 class="card-title fw-bold">Adestramento</h5>
                                         <p class="card-text">Você e seu cão falando a mesma língua!</p>
                                     </div>
                                 </div>
@@ -152,28 +149,26 @@
                         </div>
                     </div>
 
-                    <div class="row subsecao-3-card animate-on-scroll">
-                        <!-- Card 4 -->
+                    <div class="row subsecao-3-card animate-on-scroll g-4 mt-2">
                         <div class="col-md-4">
                             <a href="../banhotosa/" class="text-decoration-none text-dark">
-                                <div class="card h-100 card-home">
+                                <div class="card h-100 card-home shadow-sm">
                                     <img src="/public/img/fotos-oficiais/home/card-banhotosa.jpeg" class="card-img-top"
                                         alt="banho e tosa">
                                     <div class="card-body">
-                                        <h5 class="card-title">Banho & Tosa</h5>
+                                        <h5 class="card-title fw-bold">Banho & Tosa</h5>
                                         <p class="card-text">Seu pet pode ficar cheirosinho e estiloso no Clube Doguês!</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
 
-                        <!-- Card 5 -->
                         <div class="col-md-4">
                             <a href="../clinica/" class="text-decoration-none text-dark">
-                                <div class="card h-100 card-home">
+                                <div class="card h-100 card-home shadow-sm">
                                     <img src="/public/img/fotos-oficiais/home/card-clinica.jpg" class="card-img-top" alt="clinica">
                                     <div class="card-body">
-                                        <h5 class="card-title">Clínica</h5>
+                                        <h5 class="card-title fw-bold">Clínica</h5>
                                         <p class="card-text">Veterinária, fisioterapia e acupuntura com profissionais
                                             especializados.</p>
                                     </div>
@@ -181,13 +176,12 @@
                             </a>
                         </div>
 
-                        <!-- Card 6 -->
                         <div class="col-md-4">
                             <a href="../taxidog/" class="text-decoration-none text-dark">
-                                <div class="card h-100 card-home">
+                                <div class="card h-100 card-home shadow-sm">
                                     <img src="/public/img/fotos-oficiais/home/card-taxidog.jpg" class="card-img-top" alt="taxidog">
                                     <div class="card-body">
-                                        <h5 class="card-title">Táxi Dog</h5>
+                                        <h5 class="card-title fw-bold">Táxi Dog</h5>
                                         <p class="card-text">Transporte seguro e confortável para levar seu pet onde precisar.</p>
                                     </div>
                                 </div>
@@ -196,16 +190,20 @@
                     </div>
 
                 </div>
+                </div>
 
-                <div class="secao4">
-                    <h1>Nosso Espaço</h1>
-                    <div class="titulo4">
-                        <p class="subtitulo-4 animate-on-scroll"> Todas as instalações do Clube Doguês são pensadas para cumprir as necessidades do
-                            seu cão, estimulando o exercício e a socialização</p>
+                <div class="secao4 container-fluid p-0">
+                    <div class="text-center py-5">
+                        <h1>Nosso Espaço</h1>
+                        <div class="titulo4 container">
+                            <p class="subtitulo-4 animate-on-scroll"> Todas as instalações do Clube Doguês são pensadas para cumprir as necessidades do
+                                seu cão, estimulando o exercício e a socialização</p>
+                        </div>
                     </div>
+                    
                     <div class="sede">
-                        <div class="row">
-                            <div class="col-md-7 subsecao-sede-4-texto animate-on-scroll">
+                        <div class="row g-0">
+                            <div class="col-md-7 subsecao-sede-4-texto animate-on-scroll p-5 d-flex flex-column justify-content-center order-2 order-md-1">
                                 <h2> Sede - Vila Nova Conceição</h2>
                                 <ul>
                                     <li>1° andar: Recepção, pátio ao ar livre para brincadeiras, espaços para cães grandes.
@@ -214,49 +212,28 @@
                                     <li>2° andar: Espaços cobertos para cães pequenos e ao ar livre para brincadeiras com espelho d'água. Espaço para os pertences e dormitório de monitores.</li>
                                 </ul>
                             </div>
-                            <div  class="col-md-5 sede-img" style="
+                            <div  class="col-md-5 sede-img order-1 order-md-2" style="
                             background-image: url(/public/img/fotos-oficiais/home/sede.jpeg);
                             background-size: cover;
                             background-position: center;
                             background-repeat:no-repeat; 
                             min-height: 400px;">
-
                             </div>
                         </div>
-                        <div class="ratio ratio-16x9">
+                        <div class="ratio ratio-21x9">
                             <iframe class="mapa"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.752372146751!2d-46.677987885019456!3d-23.57912756868356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59d3f7ab0c7f%3A0x123456789abcdef!2sAv.%20Ant%C3%B4nio%20Joaquim%20de%20Moura%20Andrade%2C%20380!5e0!3m2!1spt-BR!2sbr!4v1631031234567!5m2!1spt-BR!2sbr"
                                 style="border:0;" allowfullscreen="" loading="lazy">
                             </iframe>
                         </div>
                     </div>
-                    <div class="malzoni">
-                        <div class="row">
-                            <!-- <div class="col-sm-3">
-                            <div class="card pet-stop">
-                                <img src="placeholder.png" class="card-img-top" alt="taxidog">
-                                Você deixa o cão no nosso Pet Stop, a partir das 8h</div>
-                                <div class="card">
-                                <img src="placeholder.png" class="card-img-top" alt="taxidog">
-                                Você deixa o cão no nosso Pet Stop, a partir das 8h</div>
-                        </div>
 
-                        <div class="col-sm-3">
-                            <div class="card">
-                                <img src="placeholder.png" class="card-img-top" alt="taxidog">
-                                Você deixa o cão no nosso Pet Stop, a partir das 8h</div>
-                                <div class="card">
-                                <img src="placeholder.png" class="card-img-top" alt="taxidog">
-                                Você deixa o cão no nosso Pet Stop, a partir das 8h</div>
-                        </div> -->
-                            <div class="col-md-6">
+                    <div class="malzoni my-5 container">
+                        <div class="row align-items-center">
+                            <div class="mapinha col-md-6 mb-4 mb-md-0">
                                 <picture>
-
-                                    <!-- Tela média -->
                                     <source media="(max-width: 1024px)" srcset="/public/img/fotos-oficiais/home/petstop_md.png">
-
-                                    <!-- Tela grande (padrão) -->
-                                    <img src="/public/img/fotos-oficiais/home/petstop.png" alt="fachada Pátio Victor Malzoni">
+                                    <img src="/public/img/fotos-oficiais/home/petstop.png" class="img-fluid rounded w-100" alt="fachada Pátio Victor Malzoni">
                                 </picture>
                             </div>
                             <div class="col-md-6 subsecao-malzoni-4-texto animate-on-scroll">
@@ -268,32 +245,31 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="img-pet-stop">
-                        </div>
-                        <!-- <a class="img-pet-stop">
-                        <img src="placeholder.png" alt="">
-                    </a> -->
                     </div>
                 </div>
 
-                <div class="secao5">
-                    <iframe src="https://www.youtube.com/embed/VrUBaJ7UnPE" title="Vídeo do Youtube sobre o espaço do Clube"
-                        allowfullscreen></iframe>
+                <div class="secao5 container-fluid bg-light py-5">
+                    <div class="container">
+                        <div class="ratio ratio-16x9 shadow-lg">
+                            <iframe src="https://www.youtube.com/embed/VrUBaJ7UnPE" title="Vídeo do Youtube sobre o espaço do Clube"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="secao6">
-                    <h1>Depoimentos</h1>
-                    <div id="depoimentosCarousel" class="carousel slide animate-on-scroll" data-bs-ride="carousel">
+                <div class="secao6 py-5">
+                    <h1 class="text-center mb-5">Depoimentos</h1>
+                    <div id="depoimentosCarousel" class="carousel slide animate-on-scroll container" data-bs-ride="carousel">
 
                         <div class="carousel-inner"></div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#depoimentosCarousel"
                             data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#depoimentosCarousel"
                             data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
                             <span class="visually-hidden">Próximo</span>
                         </button>
 
@@ -304,34 +280,30 @@
             <script src="/public/js/home.js"></script>
 		</div>
 
-        <footer class="container-fluid">
-        <div class="container">
-            <div class="row">
-            <!-- Coluna 1: Logo + redes sociais -->
-            <div class="col-md-4 footer-logo-container mb-4 mb-md-0">
-                <img src="../../public/img/SVG/SVG/Logo-Tipo-Branco.svg" alt="logo doguês" style="width: 200px;">
+        <footer class="container-fluid py-5">
+            <div class="container">
+                <div class="row text-center text-md-start">
+                    <div class="col-md-4 footer-logo-container mb-4 mb-md-0 d-flex justify-content-center justify-content-md-start align-items-center">
+                        <img src="../../public/img/SVG/SVG/Logo-Tipo-Branco.svg" alt="logo doguês" style="width: 200px;">
+                    </div>
+        
+                    <div class="col-md-4 footer-section mb-4 mb-md-0">
+                        <h6 class="fw-bold">Horários</h6>
+                        <p class="mb-1">Segunda a Sexta: 7h às 19h</p>
+                        <p class="mb-4">Sábados: 9h às 17h</p>
+                        <h6 class="fw-bold">Contato</h6>
+                        <p class="mb-1">(11) 2985-8566</p>
+                        <p><strong>@clubedogues</strong></p>
+                    </div>
+        
+                    <div class="col-md-4 footer-section">
+                        <h6 class="fw-bold">Endereço</h6>
+                        <p class="mb-1">Av. Antônio Joaquim de Moura Andrade, 380</p>
+                        <p class="mb-1">Vila Nova Conceição - SP</p>
+                        <p><strong>CEP:</strong> 04507-000</p>
+                    </div>
+                </div>
             </div>
-
-            <!-- Coluna 2: Horários -->
-            <div class="col-md-4 footer-section mb-4 mb-md-0">
-                <h6>Horários</h6>
-                <p>Segunda a Sexta: 7h às 19h</p>
-                <p>Sábados: 9h às 17h</p>
-                <br>
-                <h6>Contato</h6>
-                <p>(11) 2985-8566</p>
-                <p><strong>@clubedogues</strong></p>
-            </div>
-
-            <!-- Coluna 3: Endereço -->
-            <div class="col-md-4 footer-section">
-                <h6>Endereço</h6>
-                <p>Av. Antônio Joaquim de Moura Andrade, 380</p>
-                <p>Vila Nova Conceição - SP</p>
-                <p><strong>CEP:</strong> 04507-000</p>
-            </div>
-            </div>
-        </div>
         </footer>
 
         <script src="/public/js/animate.js"></script>
@@ -340,4 +312,3 @@
 
 </body>
 </html>
-

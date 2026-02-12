@@ -33,6 +33,344 @@ body {
   background-color: var(--bege3);
 }
 
+/* --- AJUSTES RESPONSIVOS DA HOME --- */
+@media (max-width: 768px) {
+    /* Ajuste de Títulos */
+    h1 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    /* Seção 1 - Hero */
+    .secao1 {
+        padding: 100px 20px 60px 20px !important;
+        height: auto !important; /* Permite que cresça se o texto for grande */
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    .capa img {
+        width: 80% !important; /* Logo menor no mobile */
+    }
+
+    /* Seção 2 e 4 - Textos */
+    .subsecao-2-texto, .subsecao-sede-4-texto, .subsecao-malzoni-4-texto {
+        padding: 30px 20px !important;
+        text-align: center;
+    }
+
+    /* Imagens que viram topo de seção */
+    .subsecao-2-img, .sede-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    /* Garante altura na imagem de fundo da Sede */
+    .sede-img {
+        min-height: 300px !important;
+    }
+
+    .secao3{
+      padding: 40px 10px;
+    }
+
+    /* Footer centralizado */
+    footer {
+        text-align: center !important;
+    }
+    
+    .footer-logo-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}
+
+/* --- AJUSTES RESPONSIVOS DAY CARE --- */
+@media (max-width: 768px) {
+    /* Hero Section Day Care */
+    .secao1-dc {
+        padding: 80px 20px !important;
+        text-align: center;
+    }
+    .secao1-dc h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    /* Seções de Texto Puro */
+    .secao2-dc, .secao4-dc {
+        padding: 40px 20px !important;
+        text-align: center;
+    }
+
+    /* Imagem do Cronograma */
+    .secao4-dc img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Seções Divididas (Imagem/Texto) */
+    .secao5-dc, .secao6-dc {
+        padding: 0 !important; /* Remove padding do container para foto encostar na borda */
+    }
+
+    .subsecao-5-texto-dc, .subsecao-6-texto-dc {
+        padding: 40px 20px !important;
+        order: 2; /* Texto sempre depois da imagem no mobile */
+    }
+
+    /* Força altura nas divs que têm imagem de fundo */
+    .secao5-dc .col-md-5, 
+    .secao6-dc .col-md-5 {
+        min-height: 300px !important; /* Altura da foto no mobile */
+        width: 100%;
+        order: 1; /* Imagem sempre primeiro no mobile */
+    }
+    
+    /* Footer Centralizado */
+    footer {
+        text-align: center !important;
+    }
+    .footer-logo-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* --- AJUSTES RESPONSIVOS ADESTRAMENTO --- */
+@media (max-width: 768px) {
+    /* Hero Section */
+    .secao1-ad {
+        padding: 80px 20px !important;
+        text-align: center;
+    }
+    .secao1-ad h1 {
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+    }
+
+    /* Seção de Texto Descritivo */
+    .secao2-ad {
+        padding: 40px 20px !important;
+        text-align: center;
+    }
+    .desc2-ad {
+        width: 100% !important; /* Garante que o texto use a largura toda */
+    }
+
+    /* Seções Divididas (Imagem/Texto) */
+    .secao3-ad, .secao4-ad {
+        padding: 0 !important;
+    }
+
+    .subsecao-3-texto-ad, .subsecao-4-texto-ad {
+        padding: 50px 25px !important;
+        text-align: center;
+        order: 2; /* Texto sempre abaixo da imagem no mobile */
+    }
+
+    /* Imagens de Fundo */
+    .secao3-ad .col-md-5, 
+    .secao4-ad .col-md-5 {
+        min-height: 350px !important; /* Altura para a foto aparecer */
+        width: 100%;
+        order: 1; /* Imagem sempre no topo no mobile */
+    }
+
+    /* Footer Centralizado */
+    footer {
+        text-align: center !important;
+    }
+    .footer-logo-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* --- AJUSTES RESPONSIVOS BANHO E TOSA --- */
+@media (max-width: 768px) {
+    /* Hero Section */
+    .secao1-bt {
+        padding: 80px 20px !important;
+        text-align: center;
+    }
+    .secao1-bt h1 {
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+    }
+
+    /* Seções de Texto e Carrossel */
+    .secao2-bt, .secao3-bt {
+        padding: 40px 20px !important;
+        text-align: center;
+    }
+    
+    /* Ajuste específico para o título da sala */
+    .nossa-sala {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+
+    /* Seção 4 - Serviços (Imagem e Lista) */
+    .secao4-bt {
+        padding: 0 !important;
+    }
+
+    .subsecao-4-texto-bt {
+        padding: 50px 25px !important;
+        text-align: center; /* Centraliza a lista no mobile */
+    }
+    
+    .subsecao-4-texto-bt ul {
+        display: inline-block; /* Mantém os bullets alinhados visualmente */
+        text-align: left;
+    }
+
+    /* Imagem de Fundo */
+    .secao4-bt .col-md-5 {
+        min-height: 350px !important;
+        width: 100%;
+    }
+
+    /* Botão de Agendar */
+    .link1 {
+        display: inline-block;
+        margin-top: 20px;
+        width: 100%; /* Botão full width no mobile */
+        box-sizing: border-box;
+    }
+
+    /* Footer Centralizado */
+    footer {
+        text-align: center !important;
+    }
+    .footer-logo-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* --- AJUSTES RESPONSIVOS CLÍNICA --- */
+@media (max-width: 768px) {
+    /* Hero Sections (Clínica Geral e Fisioterapia) */
+    .secao1-cl, .secao5-cl {
+        padding: 80px 20px !important;
+        text-align: center;
+        height: auto !important; /* Permite crescer conforme o texto */
+    }
+    
+    .secao1-cl h1, .secao5-cl h1 {
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+    }
+
+    /* Seções de Conteúdo (Texto e Listas) */
+    .secao2-cl, .secao4-cl {
+        padding: 40px 20px !important;
+        height: auto !important;
+    }
+
+    /* Ajuste da Lista de Serviços */
+    .subsecao-2-texto-cl ul {
+        display: inline-block;
+        text-align: left;
+        margin-top: 15px;
+    }
+    
+    .subsecao-2-texto-cl {
+        margin-top: 30px; /* Espaço entre descrição e lista */
+        text-align: center;
+    }
+
+    /* Seção 3 - Divisória de Imagem */
+    /* Importante: Como não tem conteúdo dentro, precisa de altura forçada no mobile */
+    .secao3-cl {
+        min-height: 300px !important;
+        background-attachment: scroll !important; /* Desativa parallax no mobile se houver, para evitar bugs */
+        background-position: center center !important;
+    }
+
+    /* Descrição Fisioterapia */
+    .desc4-cl {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    /* Footer Centralizado */
+    footer {
+        text-align: center !important;
+    }
+    .footer-logo-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* --- AJUSTES RESPONSIVOS TÁXI DOG --- */
+@media (max-width: 768px) {
+    /* Hero Section */
+    .secao1-td {
+        padding: 80px 20px !important;
+        text-align: center;
+    }
+    
+    .secao1-td h1 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+
+    /* Seção 2: Descrição e Ilustração */
+    .secao2-td {
+        padding: 40px 20px !important;
+        text-align: center;
+    }
+    
+    .subsecao-2-img-td img {
+        max-width: 80%; /* Reduz um pouco a ilustração no mobile */
+        margin-bottom: 20px;
+    }
+
+    /* Seção 3: Horários (Imagem e Texto) */
+    .secao3-td {
+        padding: 0 !important;
+    }
+
+    .subsecao-3-texto-td {
+        padding: 50px 25px !important;
+        text-align: center;
+        order: 2; /* Texto abaixo da imagem */
+    }
+    
+    .subsecao-3-texto-td ul {
+        display: inline-block;
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    /* Imagem de Fundo (Horários) */
+    .secao3-td .col-md-5 {
+        min-height: 300px !important;
+        width: 100%;
+        order: 1; /* Imagem no topo */
+    }
+
+    /* Footer Centralizado */
+    footer {
+        text-align: center !important;
+    }
+    .footer-logo-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
 .limitador {
   max-width: 1800px;
   margin: 0px auto;
@@ -143,6 +481,23 @@ h1 {
   transition: opacity 1.8s ease, transform 1.2s ease;
 }
 
+.socorro {
+  background-color: var(--verde3);
+}
+
+.socorro1 {
+  background-color: #002E23;
+}
+
+.socorro2 {
+  background-color: var(--verde1);
+}
+
+.socorro3 {
+  background-color: var(--bege2);
+}
+
+
 .animate-on-scroll.show {
   opacity: 1;
   transform: translateY(0);
@@ -155,7 +510,7 @@ h1 {
 }
 
 .subsecao-2-img {
-  padding: 20px 90px 20px 45px;
+  padding: 20px 45px 20px 45px;
   display: flex;
   justify-content: center;
   /* Centraliza horizontalmente */
@@ -165,7 +520,7 @@ h1 {
 
 .secao3 {
   background-color: var(--verde3);
-  padding: 50px 80px;
+  margin: auto;
 }
 
 .nossos-servicos {
@@ -211,7 +566,7 @@ h1 {
 
 .secao4 {
   background-color: var(--verde1);
-  padding: 50px 80px;
+  padding: 50px 2px;
 }
 
 .secao4 h1 {
@@ -245,6 +600,13 @@ h1 {
   }
 }
 
+@media (min-width: 768px){
+  .secao3 {
+    padding: 50px 80px;
+  }
+  
+}
+
 
 .ratio-16x9 {
   --bs-aspect-ratio: 300px;
@@ -254,6 +616,10 @@ h1 {
   height: 300px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+.mapinha {
+  margin-bottom: 10px;
 }
 
 .subsecao-sede-4-texto h2 {
@@ -278,7 +644,6 @@ h1 {
 .malzoni {
   background-color: var(--bege3);
   border-radius: 15px;
-  margin: 30px 0px 30px 0px;
 }
 
 .malzoni img {
@@ -385,7 +750,7 @@ h1 {
   filter: invert(100%);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 786px) {
   .depo-carousel-card {
     width: 90%;
     height: auto;
@@ -420,7 +785,7 @@ h1 {
 
 .secao2-dc {
   background-color: var(--verde3);
-  padding: 20px 150px 30px 150px;
+  padding: 20px 10px 30px 10px;
   text-align: justify;
   color: var(--bege3);
 }
@@ -778,6 +1143,10 @@ h1 {
   color: var(--bege3);
 }
 
+h3 .nossa-sala{
+  margin-bottom: 0px;
+}
+
 .desc2-bt {
   margin-left: 15%;
   margin-right: 15%;
@@ -806,7 +1175,7 @@ h1 {
 .carousel-3d {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -907,9 +1276,10 @@ h1 {
 }
 
 .subsecao-2-texto-cl {
-  padding: 40px 85px 40px 70px;
+  padding: 40px 15px 40px 30px;
   text-align: justify;
   color: var(--bege3);
+  margin-top: 0px;
 }
 
 .subsecao-2-texto-cl p {
@@ -921,10 +1291,10 @@ h1 {
 }
 
 .desc2-cl {
-  padding: 40px 85px 40px 70px;
+  padding: 40px 15px 40px 10px;
   text-align: justify;
   color: var(--bege3);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: grid;
   align-items: center;
 }
@@ -939,7 +1309,7 @@ h1 {
   background-color: var(--bege2);
   color: var(--cinza1);
   text-align: justify;
-  padding: 80px 0px 80px 50px;
+  padding: 80px 0px 80px 0px;
 }
 
 .desc4-cl {

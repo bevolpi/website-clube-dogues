@@ -4,23 +4,19 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
-    <link rel="shortcut icon" href=" /public/img/SVG/SVG/Monograma-Verde.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/public/img/SVG/SVG/Monograma-Verde.svg" type="image/x-icon">
 
     <title>Táxi Dog - Clube Doguês</title>
 
-    <!--
-        https://getbootstrap.com/docs/5.3/getting-started/introduction/
-    -->
+    <link rel="stylesheet" type="text/css" href="/public/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/public/css/sweetalert2.min.css" />
+    <link rel="stylesheet" type="text/css" href="/public/css/estilo.css" />
 
-    <link rel="stylesheet" type="text/css" href=" /public/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href=" /public/css/sweetalert2.min.css" />
-    <link rel="stylesheet" type="text/css" href=" /public/css/estilo.css" />
-
-    <script type="text/javascript" src=" /public/js/jquery.min.js"></script>
-    <script type="text/javascript" src=" /public/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src=" /public/js/sweetalert2.min.js"></script>
-    <script type="text/javascript" src=" /public/js/projeto.js"></script>
+    <script type="text/javascript" src="/public/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/public/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="/public/js/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="/public/js/projeto.js"></script>
 </head>
 <body>
 
@@ -30,7 +26,7 @@
             <div class="container-fluid">
                 <div class="nav-img">
                 <a class="navbar-brand" href="/">
-                    <img src=" /public/img/SVG/SVG/Monograma-Branco.svg" alt="Logo" width="30px">
+                    <img src="/public/img/SVG/SVG/Monograma-Branco.svg" alt="Logo" width="30px">
                 </a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -49,16 +45,15 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Serviços</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="../daycare">Day Care</a></li>
-                        <li><a class="dropdown-item" href="../hotel">Hotel</a></li>
-                        <li><a class="dropdown-item" href="../adestramento">Adestramento</a></li>
-                        <li><a class="dropdown-item" href="../banhotosa">Banho & Tosa</a></li>
-                        <li><a class="dropdown-item" href="../clinica">Clínica</a></li>
-                        <li><a class="dropdown-item" href="../taxidog">Táxi Dog</a></li>                     
+                        <li><a class="dropdown-item" href="../daycare/">Day Care</a></li>
+                        <li><a class="dropdown-item" href="../hotel/">Hotel</a></li>
+                        <li><a class="dropdown-item" href="../adestramento/">Adestramento</a></li>
+                        <li><a class="dropdown-item" href="../banhotosa/">Banho & Tosa</a></li>
+                        <li><a class="dropdown-item" href="../clinica/">Clínica</a></li>
+                        <li><a class="dropdown-item" href="../taxidog/">Táxi Dog</a></li>                     
                     </ul>
                     </li>
                     <li class="nav-item">
-                            
                             <a class="nav-link" 
                             href="https://wa.me/551129858566?text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es!" 
                             target="_blank">
@@ -71,78 +66,82 @@
 
 		<div class="conteudo">
 
-            <div class="secao1-td">
+            <div class="secao1-td py-5 px-3">
                 <a class="days animate-on-scroll">
-                    <img src="../public/img/SVG/SVG/Monograma-Cru.svg" alt="Logo" width="50px">
+                    <img src="/public/img/SVG/SVG/Monograma-Cru.svg" alt="Logo" width="50px">
                 </a>
                 <h1>Táxi Dog</h1>
                 <p>O transporte do seu pet até a nossa sede!</p>
             </div>
-                <div class="secao2-td">
-                    <div class="row subsecao-2-td">
-                        <div class="col-md-7 subsecao-2-texto-td animate-on-scroll">
-                            <p>O Táxi Dog do Clube Doguês consiste em uma van
-                                própria adaptada para o deslocamento dos pets.
-                                Cada cão tem sua própria caixa de transporte e usa
-                                uma airtag para monitoramento durante todo o
-                                trajeto</p>
-                        </div>
-                        <div class="col-md-5 subsecao-2-img-td animate-on-scroll">
-                            <img src=" /public/img/elements/elements/Artboard 1@2x.png" alt="desenho cachorro">
-                        </div>
 
+            <div class="socorro3">
+            <div class="secao2-td container py-5">
+                <div class="row align-items-center subsecao-2-td">
+                    
+                    <div class="col-md-7 subsecao-2-texto-td animate-on-scroll order-2 order-md-1">
+                        <p>O Táxi Dog do Clube Doguês consiste em uma van
+                            própria adaptada para o deslocamento dos pets.
+                            Cada cão tem sua própria caixa de transporte e usa
+                            uma airtag para monitoramento durante todo o
+                            trajeto.</p>
                     </div>
+
+                    <div class="col-md-5 subsecao-2-img-td animate-on-scroll text-center order-1 order-md-2">
+                        <img src="/public/img/elements/elements/Artboard 1@2x.png" class="img-fluid" alt="desenho cachorro">
+                    </div>
+
                 </div>
-                <div class="secao3-td">
-                    <div class="row">
-                        <div class="col-md-5" style="
-                        background-image: url( /public/img/fotos-oficiais/td/td2.jpg);
+            </div>
+            </div>
+
+            <div class="secao3-td container-fluid p-0 overflow-hidden">
+                <div class="row g-0">
+                    <div class="col-md-5 order-1 order-md-1" style="
+                        background-image: url(/public/img/fotos-oficiais/td/td2.jpg);
                         background-size: cover;
                         background-position: center;
                         min-height: 400px;">               
-                        </div>
-                        <div class="col-sm-7 subsecao-3-texto-td animate-on-scroll">
-                            <h1>Horários</h1>
-                            <ul>
-                                <li>Segunda, Quarta, Quinta e Sexta</li>
-                                <li>Ida: 7h às 10h</li>
-                                <li>Volta: 14h às 19h</li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="col-sm-7 subsecao-3-texto-td p-5 d-flex flex-column justify-content-center animate-on-scroll order-2 order-md-2">
+                        <h1>Horários</h1>
+                        <ul class="list-unstyled mt-3">
+                            <li class="mb-2"><strong>&bull; Dias:</strong> Segunda, Quarta, Quinta e Sexta</li>
+                            <li class="mb-2"><strong>&bull; Ida:</strong> 7h às 10h</li>
+                            <li class="mb-2"><strong>&bull; Volta:</strong> 14h às 19h</li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
 		</div>
 
-<footer class="container-fluid">
-<div class="container">
-    <div class="row">
-    <!-- Coluna 1: Logo + redes sociais -->
-    <div class="col-md-4 footer-logo-container mb-4 mb-md-0">
-        <img src=" /public/img/SVG/SVG/Logo-Tipo-Branco.svg" alt="logo doguês" style="width: 200px;">
-    </div>
+        <footer class="container-fluid py-5">
+            <div class="container">
+                <div class="row text-center text-md-start">
+                    <div class="col-md-4 footer-logo-container mb-4 mb-md-0 d-flex justify-content-center justify-content-md-start align-items-center">
+                        <img src="/public/img/SVG/SVG/Logo-Tipo-Branco.svg" alt="logo doguês" style="width: 200px;">
+                    </div>
+        
+                    <div class="col-md-4 footer-section mb-4 mb-md-0">
+                        <h6 class="fw-bold">Horários</h6>
+                        <p class="mb-1">Segunda a Sexta: 7h às 19h</p>
+                        <p class="mb-4">Sábados: 9h às 17h</p>
+                        <h6 class="fw-bold">Contato</h6>
+                        <p class="mb-1">(11) 2985-8566</p>
+                        <p><strong>@clubedogues</strong></p>
+                    </div>
+        
+                    <div class="col-md-4 footer-section">
+                        <h6 class="fw-bold">Endereço</h6>
+                        <p class="mb-1">Av. Antônio Joaquim de Moura Andrade, 380</p>
+                        <p class="mb-1">Vila Nova Conceição - SP</p>
+                        <p><strong>CEP:</strong> 04507-000</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-    <!-- Coluna 2: Horários -->
-    <div class="col-md-4 footer-section mb-4 mb-md-0">
-        <h6>Horários</h6>
-        <p>Segunda a Sexta: 7h às 19h</p>
-        <p>Sábados: 9h às 17h</p>
-        <br>
-        <h6>Contato</h6>
-        <p>(11) 2985-8566</p>
-        <p><strong>@clubedogues</strong></p>
+        <script src="/public/js/animate.js"></script>
     </div>
-
-    <!-- Coluna 3: Endereço -->
-    <div class="col-md-4 footer-section">
-        <h6>Endereço</h6>
-        <p>Av. Antônio Joaquim de Moura Andrade, 380</p>
-        <p>Vila Nova Conceição - SP</p>
-        <p><strong>CEP:</strong> 04507-000</p>
-    </div>
-    </div>
-</div>
-</footer>
-
-<script src="/public/js/animate.js"></script>
+</body>
+</html>
